@@ -57,7 +57,7 @@ Publish to Amazon's S3 (yes I hard coded paths):
 
     venv)➜  fabric4pelican git:(master) ✗ fab publish
 
-**A Note**: I'm using `S3cmd`_ installed via system packages on my Ubuntu machines. You can also install S3 via PIP.
+**A Note**: I'm using S3cmd_ installed via system packages on my Ubuntu machines. You can also install S3 via PIP.
 
 
 
@@ -79,4 +79,4 @@ This was also an opportunity for me to gain exposure to Fabric.
 I could have also extended the MakeFile that exists.
 Great thing about technology, almost always more than one way to do something.
 
-.. S3cmd:: 'http://s3tools.org/s3cmd'
+.. _S3cmd:: 'http://s3tools.org/s3cmd'
