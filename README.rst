@@ -9,7 +9,7 @@ http://stackful-dev.com/easier-pelican-blogging-with-fabric-automation.html
 Installing
 ----------
 
-..code:: bash
+.. code:: bash
     ➜  fabric4pelican git:(master) virtualenv venv
     New python executable in venv/bin/python
     Installing setuptools............done.
@@ -26,7 +26,7 @@ Installing
 Use
 ---
 
-..code:: bash
+.. code:: bash
 
     (venv)➜  fabric4pelican git:(master) ✗ fab new_post:title="New Post With Fabric Script"
     Rendering: blog-post-template.rst to rst/new-post-with-fabric-script.rst
