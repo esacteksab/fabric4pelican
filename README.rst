@@ -30,6 +30,7 @@ Use
 ---
 
 Generate a new post:
+++++++++++++++++++++
 
 .. code:: bash
 
@@ -39,13 +40,17 @@ Generate a new post:
     Done.
 
 Publish to Amazon's S3 (yes I hard coded paths):
+++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. code:: bash
 
     venv)➜  fabric4pelican git:(master) ✗ fab publish
 
 
-Preview blog's index, which has the latest post at the top of the page:
+Preview blog's index
+++++++++++++++++++++
+
+which has the latest post at the top of the page:
 
 **a note:** This does expect Firefox to exist and available in your $PATH
     You could also edit as necessary to support other browser(s)
