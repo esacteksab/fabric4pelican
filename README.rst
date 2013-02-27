@@ -79,4 +79,4 @@ This was also an opportunity for me to gain exposure to Fabric.
 I could have also extended the MakeFile that exists.
 Great thing about technology, almost always more than one way to do something.
 
-.. _S3cmd:: 'http://s3tools.org/s3cmd'
+.. _S3cmd: http://s3tools.org/s3cmd
