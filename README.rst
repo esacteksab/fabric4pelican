@@ -46,7 +46,9 @@ Publish to Amazon's S3 (yes I hard coded paths):
 
 
 Preview blog's index, which has the latest post at the top of the page:
-*a note:* This does expect Firefox to exist and available in your $PATH
+
+***a note:*** This does expect Firefox to exist and available in your $PATH
+You could also edit as necessary to support other browser(s)
 
 .. code:: bash
 
