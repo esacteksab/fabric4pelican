@@ -1,7 +1,7 @@
 fabric4pelican
 ==============
 
-A http://fabfile.org script to automate the intial creation of a blog post for http://docs.getpelican.com
+A http://fabfile.org to automate the intial creation of a blog post for http://docs.getpelican.com
 
 Heavily influenced by
 http://stackful-dev.com/easier-pelican-blogging-with-fabric-automation.html
@@ -70,6 +70,9 @@ DEFAULT DIRECTORY FOR PELICAN.** and you may want to edit as needed.
 Why?
 ----
 I've always wanted to use Fabric, but I'll admit it is often easier to knock out
-a quick/dirty bash script and be on my way. This was an opportunity for me to
-gain exposure to Fabric. I could have also extended the MakeFile that exists.
+a quick/dirty bash script and be on my way. The problem with this is I often
+have to resort back to `history` and `grep` to find what I did. This takes away
+some of the common tasks when trying to write a new blog post.
+This was also an opportunity for me to gain exposure to Fabric.
+I could have also extended the MakeFile that exists.
 Great thing about technology, almost always more than one way to do something.
