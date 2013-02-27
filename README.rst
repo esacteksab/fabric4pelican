@@ -29,6 +29,8 @@ Installing
 Use
 ---
 
+Generate a new post:
+
 .. code:: bash
 
     (venv)➜  fabric4pelican git:(master) ✗ fab new_post:title="New Post With Fabric Script"
@@ -36,7 +38,19 @@ Use
 
     Done.
 
+Publish to Amazon's S3 (yes I hard coded paths):
 
+.. code:: bash
+
+    venv)➜  fabric4pelican git:(master) ✗ fab publish
+
+
+Preview blog's index, which has the latest post at the top of the page:
+*a note:* This does expect Firefox to exist and available in your $PATH
+
+.. code:: bash
+
+    venv)➜  fabric4pelican git:(master) ✗ fab preview
 Note
 ----
 
