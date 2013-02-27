@@ -64,3 +64,12 @@ Note
 
 It should be noted that my source files are in 'rst'. **THIS IS NOT THE
 DEFAULT DIRECTORY FOR PELICAN.** and you may want to edit as needed.
+
+
+
+Why?
+----
+I've always wanted to use Fabric, but I'll admit it is often easier to knock out
+a quick/dirty bash script and be on my way. This was an opportunity for me to
+gain exposure to Fabric. I could have also extended the MakeFile that exists.
+Great thing about technology, almost always more than one way to do something.
