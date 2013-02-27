@@ -41,4 +41,4 @@ Note
 ----
 
 It should be noted that my source files are in 'rst'. **THIS IS NOT THE
-DEFAULT DIRECTORY FOR PELICAN**
+DEFAULT DIRECTORY FOR PELICAN.** and you may want to edit as needed.
