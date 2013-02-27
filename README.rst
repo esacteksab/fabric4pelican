@@ -10,6 +10,7 @@ Installing
 ----------
 
 .. code:: bash
+
     ➜  fabric4pelican git:(master) virtualenv venv
     New python executable in venv/bin/python
     Installing setuptools............done.
