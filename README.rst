@@ -1,7 +1,7 @@
 fabric4pelican
 ==============
 
-A http://fabfile.org to automate the intial creation of a blog post for http://docs.getpelican.com
+A http://fabfile.org to automate the intial creation of a blog post and manage the workflow for http://docs.getpelican.com static blog
 
 Heavily influenced by
 http://stackful-dev.com/easier-pelican-blogging-with-fabric-automation.html
