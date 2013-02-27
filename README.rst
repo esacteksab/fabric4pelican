@@ -39,6 +39,17 @@ Generate a new post:
 
     Done.
 
+Preview blog's index
+++++++++++++++++++++
+
+This launches Firefox (my default browser) and displays my blog's homepage locally.
+This allows me to ensure everything looks as I'd expect before publishing it.
+
+.. code:: bash
+
+    venv)➜  fabric4pelican git:(master) ✗ fab preview
+
+
 Publish to Amazon's S3 (yes I hard coded paths):
 ++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -47,17 +58,7 @@ Publish to Amazon's S3 (yes I hard coded paths):
     venv)➜  fabric4pelican git:(master) ✗ fab publish
 
 
-Preview blog's index
-++++++++++++++++++++
 
-which has the latest post at the top of the page:
-
-**a note:** This does expect Firefox to exist and available in your $PATH
-    You could also edit as necessary to support other browser(s)
-
-.. code:: bash
-
-    venv)➜  fabric4pelican git:(master) ✗ fab preview
 Note
 ----
 
