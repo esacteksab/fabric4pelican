@@ -71,7 +71,7 @@ Why?
 ----
 I've always wanted to use Fabric, but I'll admit it is often easier to knock out
 a quick/dirty bash script and be on my way. The problem with this is I often
-have to resort back to `history` and `grep` to find what I did. This takes away
+have to resort back to \`history\` to find what I did. This takes away
 some of the common tasks when trying to write a new blog post.
 This was also an opportunity for me to gain exposure to Fabric.
 I could have also extended the MakeFile that exists.
