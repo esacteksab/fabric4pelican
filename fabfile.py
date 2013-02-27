@@ -1,7 +1,7 @@
 import os
 import datetime
 import slugify
-from fabric.api import puts
+from fabric.api import puts, local
 from jinja2 import Environment, FileSystemLoader
 
 
@@ -22,6 +22,18 @@ def new_post(title, slug=None):
         render("blog-post-template.rst", out_file, **params)
     else:
         print ("{} already exists.".format(out_file))
+
+
+def make_html():
+    local("/usr/bin/make html", shell='/bin/bash')
+
+
+def preview():
+    local('firefox public/index.html&')
+
+
+def publish():
+    local('/usr/bin/s3cmd sync public/ s3://www.barrymorrison.com/')
 
 
 def render(template, destination, **kwargs):
